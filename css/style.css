@@ -275,6 +275,18 @@ section h2 {
 
 .callout a { color: var(--accent); font-weight: 600; }
 
+.languages-method {
+  margin-top: 32px;
+  max-width: 72ch;
+}
+
+.languages-method h3 {
+  font-size: 1.1rem;
+  margin: 0 0 14px;
+}
+
+.languages-method p { margin: 0 0 14px; }
+
 /* Tools / affiliate section */
 .disclosure {
   background: #fbf3e4;
@@ -311,6 +323,13 @@ section h2 {
 .tool-card .tool-tag { color: var(--accent); font-weight: 600; font-size: 0.85rem; margin-bottom: 10px; }
 .tool-card ul { padding-left: 20px; margin: 12px 0; }
 .tool-card li { margin-bottom: 4px; }
+
+.cta-row {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 4px;
+}
 
 /* Footer */
 footer.site-footer {
