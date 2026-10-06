@@ -10,6 +10,7 @@
   --accent-light: #f1e4cc;
   --radius: 10px;
   --maxw: 960px;
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
 }
 
 * { box-sizing: border-box; }
@@ -54,10 +55,11 @@ header.site-header {
 
 .nav .brand {
   color: #fff;
-  font-weight: 700;
-  font-size: 1.1rem;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.2rem;
   text-decoration: none;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.01em;
 }
 
 .nav ul {
@@ -136,7 +138,10 @@ header.site-header {
 
 .hero-text h1 {
   margin: 0 0 6px;
-  font-size: 2.2rem;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 2.6rem;
+  line-height: 1.1;
 }
 
 .hero-tagline {
@@ -183,7 +188,9 @@ header.site-header {
 section { padding: 56px 0; }
 
 section h2 {
-  font-size: 1.6rem;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.9rem;
   margin: 0 0 8px;
 }
 
@@ -204,6 +211,48 @@ section h2 {
 
 /* About */
 #about .about-body p { margin: 0 0 16px; max-width: 72ch; }
+
+/* Pull quotes */
+.pull-quote {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.45;
+  color: var(--navy);
+  border-left: 3px solid var(--accent);
+  padding: 4px 0 4px 24px;
+  margin: 28px 0;
+  max-width: 62ch;
+}
+
+.pull-quote cite {
+  display: block;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--muted);
+  margin-top: 10px;
+  letter-spacing: 0.01em;
+}
+
+/* Timeline photo */
+.timeline-photo {
+  margin-top: 14px;
+  max-width: 320px;
+}
+
+.timeline-photo img {
+  border-radius: var(--radius);
+  width: 100%;
+}
+
+.timeline-photo figcaption {
+  font-size: 0.82rem;
+  color: var(--muted);
+  margin-top: 6px;
+}
 
 /* Timeline */
 .timeline {
