@@ -389,6 +389,14 @@ section h2 {
   margin-right: 12px;
 }
 
+.tool-logos {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+
 .tool-card h3 { margin: 0 0 4px; font-size: 1.25rem; }
 .tool-card .tool-tag { color: var(--accent); font-weight: 600; font-size: 0.85rem; margin-bottom: 10px; }
 .tool-card ul { padding-left: 20px; margin: 12px 0; }
